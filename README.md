@@ -1,9 +1,7 @@
 # LEVERAGING TEMPORAL GRAPH NETWORKS USING MODULES DECOUPLING
 
-___
-
 ## Running the experiments
-___
+
 
 ### Setup
 

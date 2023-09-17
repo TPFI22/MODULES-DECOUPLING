@@ -25,12 +25,12 @@ To train the models for inductive setting use the --inductive flag:
 
 To evaluate the models, run the following command:
 
-```python evaluate.py --dataset <dataset_name> --model <model_name> --normalization <normalization_type>```
+```python test.py --dataset <dataset_name> --model <model_name> --normalization <normalization_type>```
 
 To evaluate the models for inductive setting use the --inductive flag:
 
-```python evaluate.py --dataset <dataset_name> --model <model_name> --normalization <normalization_type> --inductive```
+```python test.py --dataset <dataset_name> --model <model_name> --normalization <normalization_type> --inductive```
 
 To evaluate the models for the online-learning setting use the --online flag:
 
-```python evaluate.py --dataset <dataset_name> --model <model_name> --normalization <normalization_type> --learn```
+```python test.py --dataset <dataset_name> --model <model_name> --normalization <normalization_type> --learn```

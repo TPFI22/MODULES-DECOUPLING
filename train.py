@@ -55,7 +55,7 @@ assert type(USE_SPLIT) is bool
 
 assert EDGE_BANK_TYPE == 'unlimited' or EDGE_BANK_TYPE == 'tw' or EDGE_BANK_TYPE == 'thresh'
 
-with open(f"../data/ml_{DATASET}.csv") as f:
+with open(f"data/ml_{DATASET}.csv") as f:
     dataset = f.readlines()
     for i in range(1, len(dataset)):
         splitted_line = dataset[i].split(",")

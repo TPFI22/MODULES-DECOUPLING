@@ -29,7 +29,7 @@ LEARN = args.learn
 INDUCTIVE = args.inductive
 EPOCHS = args.epochs
 
-with open(f"../data/ml_{DATASET}.csv") as f:
+with open(f"data/ml_{DATASET}.csv") as f:
     dataset = f.readlines()
     for i in range(1, len(dataset)):
         splitted_line = dataset[i].split(",")
